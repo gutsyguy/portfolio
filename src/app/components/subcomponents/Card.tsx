@@ -1,50 +1,24 @@
-"use client";
-import React from 'react'
-import Image from 'next/image'
-
-interface Card{
-  name:string
+import React from "react"
+interface projectProps{
   image:string
-  alt: string
-  title: string
-  description: string
-  bottom:string
+  title:string
+  description:string
+  github:string
 }
 
-const Card = (props:Card) => {
+const Cards = (props:projectProps) => {
   return (
-    <div data-aos="fade-up" className="flex flex-col items-start mb-5 pb-6 p-10 bg-[#18222d] dark:bg-[#18222d] shadow-2xl rounded-2xl dark:shadow-transparent">
-    <div className="flex sm:flex-row grid-cols-2 content-center w-full ">
-    <div className="flex flex-col">
-      <h1 className=" items-center font-bold text-5xl sm:text-7xl tracking-tight mb-1 text-[#2ea6ff] dark:text-[#2ea6ff]">
-        Yalamber <br/> Subba
-      </h1>
+    <div>
+      <div className='border-2 border-solid border-[#D7A514] p-[3rem] px-[3rem] rounded-xl bg-[#080834] mx-[2rem]'>
+        <div>
+            <img src={props.image} alt="" className='w-[10rem]' />
+            <h1 className='text-center mt-10 text-xl text-[#D7A514]'>
+                {props.description}
+            </h1>
+        </div>
+      </div> 
     </div>
-    <div className="w-[80px] sm:w-[250px] relative mb-8 sm:mb-0 mx-auto">
-      <Image
-        alt={props.alt}
-        height={250}
-        width={250}
-        src={props.image}
-        sizes="30vw"
-        priority
-        className="rounded-full filter dark:grayscale"
-      />
-    </div>
-    </div>
-    
-    <div >
-    <h2 className="text-gray-200 mb-4 text-2xl">
-        {props.title} <br/> {props.description}
-        <span className="font-semibold">Google Code Next</span>
-      </h2>
-      <p className="text-xl text-gray-400 ">
-        {props.bottom}
-      </p>
-    </div>
-
-  </div>
   )
-}
+  }
 
-export default Card
+export default Cards

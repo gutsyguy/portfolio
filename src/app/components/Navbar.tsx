@@ -18,9 +18,10 @@ flex
 justify-end'>
             <ul className="">
                 <Link href = "#About" className='hover:bg-[#003566] py-[2rem] px-[2rem]'>About</Link>
+                <Link href = "#Timeline" className='hover:bg-[#003566] py-[2rem] px-[2rem]'>Timeline</Link>
                 <Link href = "#Projects" className='hover:bg-[#003566] py-[2rem] px-[2rem]'>Project</Link>
                 <Link href = "/" className='hover:bg-[#003566] py-[2rem] px-[2rem]'> Skills</Link>
-                <Link href = "/" className='hover:bg-[#003566] py-[2rem] px-[2rem]'>Timeline</Link>
+                
                 <button className=' hover:bg-[#ffd60a] text-[#000814] py-2  px-[2rem] mr-4 rounded-lg bg-[#D7A514] opacity-95' onClick={() => {
                   popUp()
                 }}>Resume</button>
