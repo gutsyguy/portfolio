@@ -1,6 +1,6 @@
-import LeftTimelineContainer from "./LeftTimelineContainer";
-import RightTimelineContainer from "./RightTimelineContainer";
-import Navbar from "../Navbar";
+import LeftTimelineContainer from "../components/Timeline/LeftTimelineContainer";
+import RightTimelineContainer from "../components/Timeline/RightTimelineContainer";
+import Navbar from "../components/Navbar";
 
 const Timeline = () => {
     return (
@@ -40,7 +40,7 @@ const Timeline = () => {
                 description='An entreprenuership program.'
               />
               <RightTimelineContainer
-                title='CN 5'
+                title='Code Next Hacks 5'
                 type="event"
                 date='August 2022'
                 description=' A 3 day hackathon where I build chat-app with react.js and firebase and won first place.'
@@ -67,13 +67,25 @@ const Timeline = () => {
                 title='Git init 2023'
                 type="event"
                 date='January 2023'
-                description=' A twelve hour hackthon where I created a game with Godot'
+                description=' A 12 hour hackthon where I created a game with Godot'
               />
             <LeftTimelineContainer
+                title="Lancer Hacks"
+                type="event"
+                date="February 2023"
+                description="A 12 hour hackathon where I created a reverse search engine"
+                />
+            <RightTimelineContainer
                 title="Mountain Hacks"
                 type="event"
                 date="March 2023"
                 description="Won best UX/UI design"
+                />
+            <LeftTimelineContainer
+                title="Los Altos Hacks 7"
+                type="event"
+                date="February 2023"
+                description="A 24 hour hackathon where I created a fitness mobile app"
                 />
             <RightTimelineContainer
                 title="Anova Hacks"

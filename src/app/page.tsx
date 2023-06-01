@@ -1,9 +1,8 @@
 import Navbar from './components/Navbar'
-import Card from './components/subcomponents/Card'
-import About from './components/About/About'
-import Projects from './components/Projects/Projects'
-import Timeline from './components/Timeline/Timeline'
-import Test from './components/Timeline/Test'
+import About from './Sections/About'
+import Projects from './Sections/Projects'
+import Timeline from './Sections/Timeline'
+
 
 const Home = () => {
   return (
@@ -16,8 +15,7 @@ const Home = () => {
       </div>
       <About image='/nextlogo.png'/>
       <Timeline/>
-      {/* <Test/> */}
-      <Projects image='/nextlogo.png'/>
+      <Projects/>
       <Navbar/> 
     </div>
   )
