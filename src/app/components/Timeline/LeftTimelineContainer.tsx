@@ -9,7 +9,7 @@ interface LeftTimelineContainerProps{
 
 const LeftTimelineContainer = (props:LeftTimelineContainerProps) => {
   return (
-    <div className="mt-6 sm:mt-0 sm:mb-12">
+    <div className="mt-6 sm:mt-0 sm:mb-12" data-aos="fade-up">
     <div className="flex flex-col sm:flex-row items-center">
       <div className="flex justify-start w-full mx-auto items-center">
         <div className="w-full sm:w-1/2 sm:pr-8">

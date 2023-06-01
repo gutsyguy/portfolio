@@ -1,7 +1,6 @@
 'use client';
 import Popup from 'reactjs-popup'
 import Link from 'next/link';
-import getData from '../../../backend/init';
 
 const popUp = () =>{
   console.log('success')
@@ -24,7 +23,7 @@ justify-end'>
                 <Link href = "/" className='hover:bg-[#003566] py-[2rem] px-[2rem]'> Skills</Link>
                 
                 <button className=' hover:bg-[#ffd60a] text-[#000814] py-2  px-[2rem] mr-4 rounded-lg bg-[#D7A514] opacity-95' onClick={() => {
-                  getData()
+                  popUp()
                 }}>Resume</button>
                 {/* <Popup trigger={<button> Click to open popup </button>} 
                   position="right center">
