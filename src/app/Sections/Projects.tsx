@@ -3,6 +3,18 @@ import data from '@/app/api/data';
 import Project from '../components/Project';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import { GetStaticProps } from 'next';
+
+type Project = {
+  name: string;
+  stargazers_count: number;
+};
+
+export const getStaticProps: GetStaticProps<{repo: Project}> = async () => {
+  const res = await fetch('https://api.github.com/repos/vercel/next.js');
+  const repo = await res.json();
+  return { props: { repo } };
+};
 
 
 interface AboutProps {}
@@ -19,10 +31,10 @@ const Projects = (props:any) => {
   return (
     <div className='bg-black text-white pb-[8rem]' id='Projects'>
       <div className='ml-[7rem] animate-fade'>
-        <h1 className='text-[2rem] text-[#D8A206]'>
+        <h1 data-aos='fade-up' className='text-[2rem] text-[#D8A206]'>
           <b>Work</b>
         </h1>
-        <h1 className='text-[5rem]'>
+        <h1 data-aos='fade-up' className='text-[5rem]'>
           <b>My Projects</b>
         </h1>
       </div>

@@ -1,12 +1,15 @@
 'use client'
-import Navbar from './components/Navbar'
-import About from './Sections/About'
-import Projects from './Sections/Projects'
-import Timeline from './Sections/Timeline'
+//libraries
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
+//sections
+import Skills from './Sections/Skills'
+import Navbar from './components/Navbar'
+import About from './Sections/About'
+import Projects from './Sections/Projects'
+import Timeline from './Sections/Timeline'
 
 const Home = () => {
   useEffect(() => {
@@ -23,6 +26,7 @@ const Home = () => {
       <About image='/nextlogo.png'/>
       <Timeline/>
       <Projects/>
+      <Skills/>
       <Navbar/> 
     </div>
   )
