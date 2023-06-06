@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import About from './Sections/About'
 import Projects from './Sections/Projects'
 import Timeline from './Sections/Timeline'
+import Contact from './Sections/Contact';
 
 const Home = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const Home = () => {
       <Timeline/>
       <Projects/>
       <Skills/>
+      <Contact/>
       <Navbar/> 
     </div>
   )

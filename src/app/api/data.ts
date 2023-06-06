@@ -82,25 +82,25 @@ const data = {
                 {
                     image: '/images/nextlogo.png',
                     name: 'Typescript',
-                    profiency: '90%',
+                    profiency: '85%',
                     level: 'Advanced'
                 },
                 {
                     image: '/images/nextlogo.png',
                     name: 'C#',
-                    profiency: '90%',
+                    profiency: '80%',
                     level: 'Advanced'
                 },
                 {
                     image: '/images/nextlogo.png',
                     name: 'Java',
-                    profiency: '90%',
+                    profiency: '75%',
                     level: 'Advanced'
                 },
                 {
                     image: '/images/nextlogo.png',
                     name: 'Swift',
-                    profiency: '90%',
+                    profiency: '60%',
                     level: 'Advanced'
                 },
                 {
