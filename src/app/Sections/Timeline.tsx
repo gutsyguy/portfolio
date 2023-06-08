@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import LeftTimelineContainer from "../components/Timeline/LeftTimelineContainer";
-import RightTimelineContainer from "../components/Timeline/RightTimelineContainer";
+import LeftTimelineContainer from "../components/LeftTimelineContainer";
+import RightTimelineContainer from "../components/RightTimelineContainer";
 import Navbar from "../components/Navbar";
 import AOS from 'aos'
 import 'aos/dist/aos.css';

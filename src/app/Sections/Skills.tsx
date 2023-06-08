@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 import Skill from '../components/Skill';
 import SkillCard from '../components/SkillCard';
-import data from '../api/data';
+import data from '../pages/api/data';
 
 
 const Skills = () => {

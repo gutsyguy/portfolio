@@ -1,5 +1,5 @@
 import {useEffect} from 'react';
-import data from '@/app/api/data';
+import data from '@/app/pages/api/data';
 import Project from '../components/Project';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
