@@ -1,5 +1,26 @@
 import React from 'react'
 
+const Validate = () =>{
+    const name = document.querySelector('#name')
+    const email = document.querySelector('#email')
+    const message = document.querySelector("#message")
+ 
+    if (!name) {
+      alert('Please enter your name.');
+      return false;
+    } 
+    if (!email) {
+      alert('Please enter your email');
+      return false;
+    }
+    if (!message) {
+      alert('Please write a message');
+      return false;
+    }
+}
+
+
+
 const Contact = () => {
   return (
     <div id="Contact" className='bg-black text-white'>
@@ -9,16 +30,18 @@ const Contact = () => {
             data-te-animation-on-scroll="repeat"
             data-te-animation-show-on-load="false"
             data-te-animation="[slide-right_1s_ease-in-out]"
-            data-aos="fade-up">Contact</h1>
+            data-aos="fade-up">
+              Contact
+        </h1>
         <div 
-        className='flex justify-center text-[2rem] py-[2rem] pb-[4rem]'
-        data-te-animation-init
-        data-te-animation-start="onScroll"
-        data-te-animation-on-scroll="repeat"
-        data-te-animation-show-on-load="false"
-        data-te-animation="[slide-right_1s_ease-in-out]"
-        data-aos="fade-up">
-            <form action="" className='border-[#D8A206] border-2 border-solid px-[10rem] py-[5rem] rounded-xl bg-[#001d3d]'>
+          className='flex justify-center text-[2rem] py-[2rem] pb-[4rem]'
+          data-te-animation-init
+          data-te-animation-start="onScroll"
+          data-te-animation-on-scroll="repeat"
+          data-te-animation-show-on-load="false"
+          data-te-animation="[slide-right_1s_ease-in-out]"
+          data-aos="fade-up">
+            <form action="" className='border-[#D8A206] border-2 border-solid px-[10rem] py-[5rem] rounded-xl bg-[#001d3d]' onSubmit={Validate}>
                 <label className='' htmlFor="name">Name:</label> <br />
                 <input className='border-[#D8A206] border-2 border-solid rounded-md px-[5rem]' type="text" id="name" name="name"/><br />
                 <label htmlFor="email">Email:</label> <br />
