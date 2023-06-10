@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 interface skill{
   scale: string,
@@ -11,7 +12,7 @@ const Skill = (props:skill) => {
   return (
     <div className='bg-black'>
         <div className='flex flex-row bg-[#001d3d] p-4'>
-        <img className='w-[50px] h-[50px]' src="/images/nextlogo.png" alt="" />
+        <Image className='w-[50px] h-[50px]' src="/images/nextlogo.png" alt="" />
           <div className=''>
             <div className='flex bg-gray-300 dark:bg-slate-500 rounded-2xl mt-2 mx-2' >
                 <div style={{width:props.scale, backgroundColor:props.color}} className='flex p-[0.1rem] rounded-2xl justify-end'>
