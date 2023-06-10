@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '@/app/pages/api/data'
+import data from '../api/data'
 import { GetStaticProps } from 'next'
 
 export async function getStaticProps() {

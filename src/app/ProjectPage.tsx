@@ -1,5 +1,5 @@
 import React from 'react'
-import data from './pages/api/data'
+import data from './api/data'
 
 const ProjectPage = () => {
   return (
