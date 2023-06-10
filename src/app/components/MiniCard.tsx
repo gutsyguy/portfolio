@@ -14,7 +14,7 @@ const MiniCard = (props:card) => {
   return (
     <div data-aos="fade-up" className='border-2 border-solid border-[#D7A514] p-[3rem] px-[3rem] rounded-xl bg-[#080834] mx-[2rem]'>
         <div data-aos="fade-up">
-            <Image data-aos="fade-up" src={props.image} alt="" className='w-[10rem] h-[10rem]' />
+            <img data-aos="fade-up" height={50} width={50} src={props.image} alt="" className='w-[10rem] h-[10rem]' />
             <h1 data-aos="fade-up" className='text-center mt-10 text-xl text-[#D7A514]'>
                 {props.description}
             </h1>

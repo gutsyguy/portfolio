@@ -12,7 +12,7 @@ const Cards = (props:projectProps) => {
     <div>
       <div className='border-2 border-solid border-[#D7A514] p-[3rem] px-[3rem] rounded-xl bg-[#080834] mx-[2rem]'>
         <div>
-            <Image src={props.image} alt="" className='w-[10rem]' />
+            <img src={props.image} alt="" height={50} width={50} className='w-[10rem]' />
             <h1 className='text-center mt-10 text-xl text-[#D7A514]'>
                 {props.description}
             </h1>

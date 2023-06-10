@@ -43,7 +43,7 @@ const data = {
         skills: 'Next.js, typescript, tailwind.',
         description: 'A reverse search engine',
         github: 'https://github.com/Alex-RV/DALY',
-        image: '/images/Memeware.png'
+        image: '/images/Elgoog.png'
     },
     {
         _id: 6,
@@ -61,62 +61,62 @@ const data = {
         skills: 'Flutter',
         description: 'A fitness mobile app',
         github: 'https://github.com/Alex-RV/Meal-Missionary',
-        image: '/images/MealMissionary.png'
+        image: '/images/Pacepals.png'
     },
 ],
     skills:
         {
             Languages:[
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/python.png',
                     name: 'Python',
                     profiency: '90%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/javascript.png',
                     name: 'Javascript',
                     profiency: '90%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/typescript.png',
                     name: 'Typescript',
                     profiency: '85%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/C#.png',
                     name: 'C#',
                     profiency: '80%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/java.png',
                     name: 'Java',
                     profiency: '75%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/swift.png',
                     name: 'Swift',
                     profiency: '60%',
-                    level: 'Advanced'
+                    level: 'Intermediate'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/html.png',
                     name: 'HTML',
                     profiency: '90%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/css.png',
                     name: 'CSS',
                     profiency: '90%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/sql.png',
                     name: 'SQL',
                     profiency: '90%',
                     level: 'Advanced'
@@ -126,49 +126,49 @@ const data = {
             ,
             Frameworks:[
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/react.png',
                     name: 'React',
                     profiency: '80%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/express.png',
                     name: 'Express',
                     profiency: '70%',
-                    level: 'Advanced'
+                    level: 'Intermediate'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/unitylogo.png',
                     name: 'Unity',
                     profiency: '80%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/godot.png',
                     name: 'Godot',
                     profiency: '60%',
-                    level: 'Advanced'
+                    level: 'Intermediate'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/tailwind.png',
                     name: 'Tailwind css',
                     profiency: '90%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/flutterlogo.png',
                     name: 'Flutter',
                     profiency: '70%',
-                    level: 'Advanced'
+                    level: 'Intermediate'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/tensorflowlogo.png',
                     name: 'Tensorflow',
                     profiency: '60%',
-                    level: 'Advanced'
+                    level: 'Intermediate'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/flask.png',
                     name: 'Flask',
                     profiency: '80%',
                     level: 'Advanced'
@@ -176,25 +176,25 @@ const data = {
             ],
             Miscellanous:[
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/blender.png',
                     name: 'Blender',
                     profiency: '80%',
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/fusion360.png',
                     name: 'Fusion 360',
                     profiency: '70%',
                     level: 'Intermediate'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/firebase.png',
                     name: 'Firebase',
                     profiency: '50%',
                     level: 'Familiar'
                 },
                 {
-                    image: '/images/nextlogo.png',
+                    image: '/images/raspberryPi.png',
                     name: 'Raspberry Pi',
                     profiency: '80%',
                     level: 'Advanced'

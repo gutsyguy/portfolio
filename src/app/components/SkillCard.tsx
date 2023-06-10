@@ -16,7 +16,7 @@ const SkillCard = (props:any) => {
     <div className='transform hover:scale-[1.01] transition-all'>
       <div className='flex flex-row rounded-2xl mb-10 mx-auto bg-[#001d3d] max-w-2xl w-full transform hover:scale-[1.01] transition-all border-solid border-2 border-[#D8A206]'>
         <div className='flex p-4 items-center bg-cover bg-center bg-no-repeat'>
-        <Image
+        <img
                 alt="IMG"
                 height={50}
                 width={50}

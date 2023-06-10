@@ -21,7 +21,7 @@ const Project = (props:any) => {
 
 <div className="bg-black rounded-lg shadow-md border-2 border-[#D7A514] border-solid">
     <div className='flex justify-center '>
-        <Image src={project.image} className="w-[350px] h-[15rem] rounded-md" alt={project.title} /> 
+        <img src={project.image} className="w-[350px] h-[15rem] rounded-md" alt={project.title} /> 
     </div>
     <div className="p-4">
         <h2 className="text-2xl font-semibold text-[#D7A514]">{project.title}</h2>
