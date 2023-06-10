@@ -86,7 +86,7 @@ const data = {
                     level: 'Advanced'
                 },
                 {
-                    image: '/images/C#.png',
+                    image: '/images/CSharp.png',
                     name: 'C#',
                     profiency: '80%',
                     level: 'Advanced'

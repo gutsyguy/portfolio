@@ -21,7 +21,6 @@ const SkillCard = (props:any) => {
                 height={50}
                 width={50}
                 src={props.image}
-                priority
                 className="rounded-full filter"
               />
         </div>
