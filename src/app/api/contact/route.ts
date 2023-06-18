@@ -7,7 +7,7 @@ import cors from 'cors';
 const corsMiddleware = cors();
 
 export async function POST(req: any, res: any) {
-  const SENDGRID_API_KEY = "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";
+  const SENDGRID_API_KEY = process.env.api
   const { email, message } = req.body;
 
   const data = {
